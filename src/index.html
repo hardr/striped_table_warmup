@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-fUMURLTdEcpeYHly3PAwggI3l2UvdHNg/I+8LRph7hLDcAZm77YfDx3Tjum9d3vK" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <title>Striped Table Changer</title>
+  </head>
+  <body>
+    <main class="container">
+      <div>
+        <table class="table">
+          <thead class="row form-group">
+            <tr>
+              <th class='col-md-4'>Check this out!</th>
+              <th class='col-md-4'>Did you check that out?</th>
+              <th class='col-md-4'>Then why are you here?</th>
+            </tr>
+          </thead>
+          <tbody class="row form-group">
+            <tr class="rowOdd">
+              <td class='col-md-4'>The Dude</td>
+              <td class='col-md-4'>Your Dudeness</td>
+              <td class='col-md-4'>Dudinator</td>
+            </tr>
+            <tr class="rowEven">
+              <td class='col-md-4'>The Rug</td>
+              <td class='col-md-4'>Walter's Gun</td>
+              <td class='col-md-4'>Bowling Ball</td>
+            </tr>
+            <tr class="rowOdd">
+              <td class='col-md-4'>Jesus</td>
+              <td class='col-md-4'>Millionaire</td>
+              <td class='col-md-4'>Arteeest</td>
+            </tr>
+            <tr class="rowEven">
+              <td class='col-md-4'>Got nothin'</td>
+              <td class='col-md-4'>No ideas</td>
+              <td class='col-md-4'>Creativity block</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="form row">
+        <form>
+          <label>Change the background color for even rows:
+            <input class="evenColor" type="text" name="evenColor">
+          </label>
+          <div>
+            <label>Odd row css property:
+              <input class="oddProp" type="text" name="evenColor">
+            </label>
+            <label>..and a corresponding value:
+              <input class="oddPropVal" type="text" name="evenColor">
+            </label>
+          </div>
+          <div>
+            <button type="submit">Ch-ch-ch-changes!</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+</html>
